@@ -1,22 +1,32 @@
 # Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
 
 # Setup
-title:               Ramya Shenoy
-name:                Ramya Shenoy
-description:         "My tech diary."
-url:                 "https://rumshenoy.github.io"
-baseurl:             ''
-paginate:            5
+title:               Poole
+tagline:             The Jekyll Butler
+url:                 http://getpoole.com
+paginate:            1
+baseurl:             "https://rumshenoy.github.io"
 
-exclude:
- - "/vendor/"
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
 
-#Build settings
-gems: [jekyll-paginate]
-paginate_path: "page:num" 
+# About/contact
+author:
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
 
 # Custom vars
-version:             1.0.0
+version:             2.0.0
+github:
+  repo:              https://github.com/poole/poole
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist

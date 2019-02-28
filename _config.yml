@@ -1,0 +1,22 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               Ramya Shenoy
+name:                Ramya Shenoy
+description:         "My tech diary."
+url:                 "https://rumshenoy.github.io"
+baseurl:             ''
+paginate:            5
+
+exclude:
+ - "/vendor/"
+
+#Build settings
+gems: [jekyll-paginate]
+paginate_path: "page:num" 
+
+# Custom vars
+version:             1.0.0

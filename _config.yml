@@ -2,11 +2,11 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Ramya Shenoy
+tagline:             Tech Diary
+url:                 https://rumshenoy.github.io
 paginate:            1
-baseurl:             "https://rumshenoy.github.io"
+baseurl:             ""
 
 # Assets
 #
@@ -14,17 +14,6 @@ baseurl:             "https://rumshenoy.github.io"
 sass:
   sass_dir:          _sass
   style:            :compressed
-
-# About/contact
-author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
-
-# Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/poole/poole
 
 # Gems
 gems:
